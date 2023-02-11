@@ -39,7 +39,7 @@ namespace Ejercicio_2
                 errorProvider1.SetError(txtIVParcial, "Ingrese un codigo");
                 return;
             }
-
+            errorProvider1.Clear();
 
             decimal nota1 = Convert.ToDecimal(txtIParcial.Text);
             decimal nota2 = Convert.ToDecimal(txtIIParcial.Text);
